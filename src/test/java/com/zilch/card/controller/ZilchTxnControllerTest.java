@@ -6,6 +6,7 @@ import com.zilch.card.modal.ZilchTxn;
 import com.zilch.card.service.ZilchTxnService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
@@ -21,7 +22,8 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.when;
 
-@WebMvcTest(controllers = ZilchTxnController.class)
+@WebMvcTest(controllers = ZilchTxnController.class,
+        excludeAutoConfiguration = {SecurityAutoConfiguration.class})
 class ZilchTxnControllerTest {
 
     @Autowired
