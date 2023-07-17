@@ -21,12 +21,12 @@ class S3AwsClientConfigurerConfiguration {
     static class S3AwsClientClientConfigurer implements AwsClientCustomizer<S3ClientBuilder> {
         @Override
         public ClientOverrideConfiguration overrideConfiguration() {
-            return ClientOverrideConfiguration.builder().apiCallTimeout(Duration.ofMillis(500)).build();
+            return ClientOverrideConfiguration.builder().apiCallTimeout(Duration.ofMillis(5000)).build();
         }
 
         @Override
         public SdkHttpClient httpClient() {
-            return ApacheHttpClient.builder().connectionTimeout(Duration.ofMillis(1000)).build();
+            return ApacheHttpClient.builder().connectionTimeout(Duration.ofMillis(10000)).build();
         }
     }
 }

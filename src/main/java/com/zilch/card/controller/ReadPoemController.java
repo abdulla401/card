@@ -15,7 +15,7 @@ public class ReadPoemController {
     private final S3PoemClient s3PoemClient;
     @GetMapping(path = "/poem")
     public String poem() {
-        String poem = "Poem: ";
+        String poem = "Poem2: ";
         try {
             poem += s3PoemClient.readFile();
         } catch (IOException e) {
