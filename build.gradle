@@ -20,11 +20,21 @@ configurations {
 repositories {
 	mavenCentral()
 }
+ext {
+	set('springCloudAwsVersion', '3.0.0-RC1')
+}
 
 dependencies {
+	implementation platform("io.awspring.cloud:spring-cloud-aws-dependencies:${springCloudAwsVersion}")
+	implementation platform('software.amazon.awssdk:bom:2.20.56')
+
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-security'
+	implementation 'io.awspring.cloud:spring-cloud-aws-starter'
+	implementation 'io.awspring.cloud:spring-cloud-aws-starter-s3'
+	implementation 'software.amazon.awssdk:apache-client'
+
 	compileOnly 'org.projectlombok:lombok'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	runtimeOnly 'com.h2database:h2'
