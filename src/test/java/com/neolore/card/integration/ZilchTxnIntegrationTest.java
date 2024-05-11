@@ -1,6 +1,6 @@
-package com.zilch.card.integration;
+package com.neolore.card.integration;
 
-import com.zilch.card.modal.ZilchTxn;
+import com.neolore.card.modal.ZilchTxn;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.junit.jupiter.api.*;

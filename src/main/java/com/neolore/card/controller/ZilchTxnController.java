@@ -1,7 +1,7 @@
-package com.zilch.card.controller;
+package com.neolore.card.controller;
 
-import com.zilch.card.modal.ZilchTxn;
-import com.zilch.card.service.ZilchTxnService;
+import com.neolore.card.modal.ZilchTxn;
+import com.neolore.card.service.ZilchTxnService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

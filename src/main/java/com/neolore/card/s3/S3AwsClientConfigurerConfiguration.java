@@ -1,4 +1,4 @@
-package com.zilch.card.s3;
+package com.neolore.card.s3;
 
 import io.awspring.cloud.autoconfigure.core.AwsClientCustomizer;
 import org.springframework.context.annotation.Bean;

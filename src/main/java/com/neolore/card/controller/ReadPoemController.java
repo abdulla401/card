@@ -1,6 +1,6 @@
-package com.zilch.card.controller;
+package com.neolore.card.controller;
 
-import com.zilch.card.s3.S3PoemClient;
+import com.neolore.card.s3.S3PoemClient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

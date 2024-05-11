@@ -4,6 +4,7 @@ Spring boot REST api with jpa(h2), security(token) and tests
 ## Build and run tests
 Run: ./gradlew bootRun
 Test: ./gradlew test
+jar: ./gradlew bootJar
 We need to provide a X-API-KEY: <<secret is in codebase, security folder>> as a header
 
 ## AWS Account

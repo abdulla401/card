@@ -1,6 +1,6 @@
-package com.zilch.card.repository;
+package com.neolore.card.repository;
 
-import com.zilch.card.modal.ZilchTxn;
+import com.neolore.card.modal.ZilchTxn;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;

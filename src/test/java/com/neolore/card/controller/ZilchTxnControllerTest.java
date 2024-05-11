@@ -1,9 +1,9 @@
-package com.zilch.card.controller;
+package com.neolore.card.controller;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.zilch.card.modal.ZilchTxn;
-import com.zilch.card.service.ZilchTxnService;
+import com.neolore.card.modal.ZilchTxn;
+import com.neolore.card.service.ZilchTxnService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;

@@ -1,7 +1,7 @@
-package com.zilch.card.service;
+package com.neolore.card.service;
 
-import com.zilch.card.modal.ZilchTxn;
-import com.zilch.card.repository.ZilchTxnRepository;
+import com.neolore.card.repository.ZilchTxnRepository;
+import com.neolore.card.modal.ZilchTxn;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

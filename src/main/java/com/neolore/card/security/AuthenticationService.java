@@ -1,4 +1,4 @@
-package com.zilch.card.security;
+package com.neolore.card.security;
 
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.security.authentication.BadCredentialsException;

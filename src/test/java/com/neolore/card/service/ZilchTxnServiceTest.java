@@ -1,7 +1,7 @@
-package com.zilch.card.service;
+package com.neolore.card.service;
 
-import com.zilch.card.modal.ZilchTxn;
-import com.zilch.card.repository.ZilchTxnRepository;
+import com.neolore.card.modal.ZilchTxn;
+import com.neolore.card.repository.ZilchTxnRepository;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;

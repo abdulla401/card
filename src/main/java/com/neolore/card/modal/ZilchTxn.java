@@ -1,4 +1,4 @@
-package com.zilch.card.modal;
+package com.neolore.card.modal;
 
 import jakarta.persistence.*;
 import lombok.*;
